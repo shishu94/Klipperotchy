@@ -2,7 +2,7 @@
 Python3 application that allows to bridge source of GCODE from a serial interface and feed them directly into [Moonraker](https://github.com/Arksine/moonraker) (in other words a [Klipper](https://www.klipper3d.org/) printer) via the network.
 
 # What is it for
-This tool is particularly usefull to control Klipper via external softwares or devices that only control 3d printers, lasers, CNCs via a physical serial port. 
+This tool is particularly useful to control Klipper via external softwares or devices that only control 3d printers, lasers, CNCs via a physical serial port. 
 
 A few examples:
 - [Mosaic Palette 3 (Pro)](https://www.mosaicmfg.com/products/palette-3-pro)
@@ -110,10 +110,9 @@ Go to the P3 and try to connect to a printer. Use the same baudrate as specified
 If everything went well, the palette should display a connected state in a few seconds.
 
 ## Setup the slicer
-TODO
 Configure canvas as you would configure any other slicer with the Klipper printer. Especially the Start and End job.
 
-Z## Bonus Fake job
+## Bonus Fake job
 This includes a FakePrint.gcode that you can upload to klipper. One can start this in parallel before starting a job with the palette. This will start and pause a print so it triggers the printing mode on KlipperScreen or the Knomi for example.
 
 Copy the FakePrint.gcode file into Klipper (via Mainsail, Fluidd, etc)
