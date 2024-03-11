@@ -16,7 +16,7 @@ In practice it has been very reliable with my Palette 3 Pro in connected mode.
 # Setup
 We will use the Mosaic Palette 3 Pro (P3P) as an example to set it up. Also we will use a Raspberry Pi 4 as a reference. 
 
-**Note:** I tested this as is on a few different devices some work very reliably others don't here is a list of what I tested so far. This means that the devices runs Klipper and the bridge code at the same time. This is what I call local mode.
+**Note:** I tested this as is on a few different devices. Some work very reliably others don't. Here is a list of what I tested so far. This means that the devices runs Klipper and the bridge code at the same time. This is what I call local mode.
 
 Work well:
 - Raspberry Pi 4 
