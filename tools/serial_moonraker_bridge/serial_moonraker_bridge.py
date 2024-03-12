@@ -39,13 +39,13 @@ def listenPalette():
 		else:
 			conn.request("POST", "/printer/gcode/script?script="+quote(line))	
 
-	for attempt in range(5):
-		response = conn.getresponse()                                                         	
-		if response.reason == 'OK':
-			palette_ser.write(b'ok\n')
-			break
-		sleep(0.1) #Wait 100ms before sending this again.	
-	conn.close()  
+		for attempt in range(5):
+			response = conn.getresponse()                                                         	
+			if response.reason == 'OK':
+				palette_ser.write(b'ok\n')
+				break
+			sleep(0.1) #Wait 100ms before sending this again.	
+		conn.close()  
 
 
 async def listenMoonrakerAsync():
