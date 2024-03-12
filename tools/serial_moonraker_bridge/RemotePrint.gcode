@@ -1,0 +1,2 @@
+PAUSE
+END_PRINT
