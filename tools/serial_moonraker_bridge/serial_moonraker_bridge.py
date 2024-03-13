@@ -11,7 +11,7 @@ from multiprocessing import Process
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--serial', dest='serial', type=str, default='/dev/ttyUSB1', help='Serial port to use (e.g. /dev/ttyUSB1)')
-parser.add_argument('--baudrate', dest='baudrate', type=int, choices=[9600, 38400, 57600, 115200, 250000], default=250000)
+parser.add_argument('--baudrate', dest='baudrate', type=int, choices=[9600, 38400, 57600, 115200, 250000], default=115200)
 parser.add_argument('--moonraker', dest='moonraker', type=str, default='localhost:7125', help='Moonraker address. [ip:port] (default localhost:7125)')
 parser.add_argument('--log', dest= 'loglevel', type=str,default='WARNING')
 args = parser.parse_args()
