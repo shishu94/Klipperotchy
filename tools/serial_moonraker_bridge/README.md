@@ -87,8 +87,8 @@ If you intend to run this in Remote mode (on a device on the same network) no ad
 
 #### Running the script
 The script has 3 parameters:
-- baudrate: The Baudrate of the serial connection. (default 250000)
-- serial: The identifier of the serial interface used. (default /dev/ttyUSB0)
+- baudrate: The Baudrate of the serial connection. (default 115200)
+- serial: The identifier of the serial interface used. (default /dev/ttyUSB1)
 - moonraker: The [ip:port] of the Moonraker instance to target. (default localhost:7125)
 - log: The log level in case you are interested to see what is going on.
 
