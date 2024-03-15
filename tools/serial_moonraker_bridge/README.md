@@ -95,15 +95,14 @@ Please use KIAUH to install it.
 cd ~/Klipperotchy/tools/serial_moonraker_bridge && sh install_macro.sh
 ```
 
-Once this is done a macro 
+#### Starting the bridge (local)
+![Look into StartMacro.png](StartMacro.png)
 
 #### Connecting the Palette 3 (Pro)
 Once the step above is done, connect the remaining USB A connector, and plug it on the Palette 3.
 Go to the P3 and try to connect to a printer. Use the same baudrate as specified to start the bridge code.
 If everything went well, the palette should display a connected state in a few seconds.
 
-#### Starting the bridge (local)
-![Look into StartMacro.png](StartMacro.png)
 
 ## Setup the slicer
 Configure canvas as you would configure any other slicer with the Klipper printer. Especially the Start and End job.
