@@ -80,7 +80,9 @@ The script has 2 notable dependencies to install:
 - [Python Websockets](https://websockets.readthedocs.io/en/stable/)
 
 For most distributions:
-`sudo apt-get install python3-serial python3-websockets` for most distribs.
+```
+sudo apt-get install python3-serial python3-websockets
+```
 
 Follow the appropriate ways of installing these 2 libraries if they are not available on your bridge host system.
 The remaining dependencies should be included in all the major installs of Python3
