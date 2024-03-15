@@ -10,8 +10,8 @@ from urllib.parse import quote
 from multiprocessing import Process
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--serial', dest='serial', type=str, default='/dev/ttyUSB1', help='Serial port to use (e.g. /dev/ttyUSB1)')
-parser.add_argument('--baudrate', dest='baudrate', type=int, choices=[9600, 38400, 57600, 115200, 250000], default=115200)
+parser.add_argument('--serial', dest='serial', type=str, default='/dev/ttyUSB0', help='Serial port to use (e.g. /dev/ttyAMA0)')
+parser.add_argument('--baudrate', dest='baudrate', type=int, choices=[9600, 38400, 57600, 115200, 250000], default=250000)
 parser.add_argument('--moonraker', dest='moonraker', type=str, default='localhost:7125', help='Moonraker address. [ip:port] (default localhost:7125)')
 parser.add_argument('--log', dest= 'loglevel', type=str,default='WARNING')
 args = parser.parse_args()
@@ -32,21 +32,19 @@ def listenPalette():
 	print("Listening palette")
 	while True:
 		line = palette_ser.readline().decode("utf-8").strip()             
-		logging.info('<Serial>'+ line + '</Serial>')                              
+		logging.info('<P3>'+ line + '</P3>')                              
 		conn = http.client.HTTPConnection(moonraker_address)              
 		if line == "___START_JOB___":                                                          
 			conn.request("POST", "/printer/print/start?filename=RemotePrint.gcode")                    
 		else:
-			conn.request("POST", "/printer/gcode/script?script="+quote(line))	
+			conn.request("POST", "/printer/gcode/script?script="+quote(line))
+			
+		response = conn.getresponse()                                                         
+		conn.close()
+		if response.reason == 'OK':
+			palette_ser.write(b'ok\n')
 
-		for attempt in range(5):
-			response = conn.getresponse()                                                         	
-			if response.reason == 'OK':
-				palette_ser.write(b'ok\n')
-				break
-			sleep(0.1) #Wait 100ms before sending this again.	
-		conn.close()  
-
+	
 
 async def listenMoonrakerAsync():
 	print("Listening moonraker")
