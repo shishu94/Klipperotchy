@@ -71,21 +71,42 @@ Do not connect VCC, not required here.
 
 Once this double USB A ended cable is done you are ready for the next step.
 
-
 ### Software
-The script has 2 notable dependencies:
+First clone this repository:
+`cd ~ && git clone https://github.com/shishu94/Klipperotchy.git`
+
+The script has 2 notable dependencies to install:
 - [PySerial](https://pyserial.readthedocs.io/en/latest/index.html)
 - [Python Websockets](https://websockets.readthedocs.io/en/stable/)
 
-Follow the appropriate ways of installing these 2 libraries if they are not available on your bridge host system.
+For most distributions:
+`sudo apt-get install python3-serial python3-websockets` for most distribs.
 
+Follow the appropriate ways of installing these 2 libraries if they are not available on your bridge host system.
 The remaining dependencies should be included in all the major installs of Python3
 
-If you intend to run this in Local mode (on the Klipper printer) you will need (in most cases) need to ssh into the printer while is powered and start the script manually.
+#### Install bridge start macro (local)
+This macro needs [gcode_shell_command](https://github.com/dw-0/kiauh/blob/master/docs/gcode_shell_command.md) to run. 
+Please use KIAUH to install it.
 
-If you intend to run this in Remote mode (on a device on the same network) no additional requirements.
+```
+cd ~/Klipperotchy/tools/serial_moonraker_bridge && sh install_macro.sh
+```
 
-#### Running the script
+Once this is done a macro 
+
+#### Connecting the Palette 3 (Pro)
+Once the step above is done, connect the remaining USB A connector, and plug it on the Palette 3.
+Go to the P3 and try to connect to a printer. Use the same baudrate as specified to start the bridge code.
+If everything went well, the palette should display a connected state in a few seconds.
+
+#### Starting the bridge (local)
+![Look into StartMacro.png](StartMacro.png)
+
+## Setup the slicer
+Configure canvas as you would configure any other slicer with the Klipper printer. Especially the Start and End job.
+
+## Running the script on a remote device
 The script has 3 parameters:
 - baudrate: The Baudrate of the serial connection. (default 115200)
 - serial: The identifier of the serial interface used. (default /dev/ttyUSB1)
@@ -104,16 +125,8 @@ with the RPi uart in local mode with logging enabled:
 
 This will start the bridge and keep it running. Of course replace the Xs with the appropriate values.
 
-#### Connecting the Palette 3 (Pro)
-Once the step above is done, connect the remaining USB A connector, and plug it on the Palette 3.
-Go to the P3 and try to connect to a printer. Use the same baudrate as specified to start the bridge code.
-If everything went well, the palette should display a connected state in a few seconds.
-
-## Setup the slicer
-Configure canvas as you would configure any other slicer with the Klipper printer. Especially the Start and End job.
-
 ## Bonus Fake job
-This includes a FakePrint.gcode that you can upload to klipper. One can start this in parallel before starting a job with the palette. This will start and pause a print so it triggers the printing mode on KlipperScreen or the Knomi for example.
+This includes a RemotePrint.gcode that you can upload to klipper. One can start this in parallel before starting a job with the palette. This will start and pause a print so it triggers the printing mode on KlipperScreen or the Knomi for example.
 
 Copy the FakePrint.gcode file into Klipper (via Mainsail, Fluidd, etc)
 In the start job GCODE in canvas, add `___START_JOB___` if you want the bridge to start the fake job automatically.
