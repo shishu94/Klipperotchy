@@ -46,7 +46,7 @@ def listenPalette():
 		logging.info('<P3>'+ line + '</P3>')                              
 		conn = http.client.HTTPConnection(moonraker_address)              
 		if line == "___START_JOB___":                                                          
-			conn.request("POST", "/printer/print/start?filename=Remote.gcode")                    
+			conn.request("POST", "/printer/print/start?filename=RemotePrint.gcode")                    
 		else:
 			conn.request("POST", "/printer/gcode/script?script="+quote(line))
 			
