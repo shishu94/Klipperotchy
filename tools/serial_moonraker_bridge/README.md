@@ -129,5 +129,5 @@ This will start the bridge and keep it running. Of course replace the Xs with th
 ## Bonus Fake job
 This includes a RemotePrint.gcode that you can upload to klipper. One can start this in parallel before starting a job with the palette. This will start and pause a print so it triggers the printing mode on KlipperScreen or the Knomi for example.
 
-Copy the FakePrint.gcode file into Klipper (via Mainsail, Fluidd, etc)
+Copy the RemotePrint.gcode file into Klipper (via Mainsail, Fluidd, etc)
 In the start job GCODE in canvas, add `___START_JOB___` if you want the bridge to start the fake job automatically.
