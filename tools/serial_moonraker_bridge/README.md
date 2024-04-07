@@ -22,7 +22,8 @@ Work well:
 - Raspberry Pi 4 
 - BTT CB1
 - Makerbase Klipper integrated boards (tested on a QIDI X plus 3)
-
+- Creality K1, but some stuttering at high speed (still investigating why this is happening). CPU load is quite high.
+  
 Crashed Klipper due to CPU overload:
 - Rapsberry Pi Zero 2w
 
