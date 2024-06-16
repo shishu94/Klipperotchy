@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="form_section">
+    <div class="form_label">Moonraker</div>
+    <div class="form_field">{{ moonraker_address}}</div>
+</div>
+<div class="form_section">
+    <div class="form_label">Serial</div>
+    <div class="form_field">{{ serial_port }}@{{ baudrate }}</div>
+</div>
+<form method="post">
+    <input type="hidden" name="disconnect_bridge">
+    <div class="form_section">
+        <button type="submit" class="btn disconnect">Disconnect</button>
+    </div>
+</form>
+{% if p3_address %}
+<iframe id="P3_subframe" src=" http://{{p3_address}} " width="800" height="480"></iframe>
+{% endif %}
+{% endblock %}
