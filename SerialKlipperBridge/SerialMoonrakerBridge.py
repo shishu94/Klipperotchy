@@ -11,49 +11,71 @@ from multiprocessing import Process
 class SerialMoonrakerBridge:
     def __init__(self):
         self.is_connected = False
+        
         self.moonraker_address = None
-        self.serial_process = None
-        self.moonraker_process = None
         self.serial_port = None
         self.baudrate = None
+
+        self.serial_process = None
+        self.moonraker_process = None
+        
 
     def connect(self, serial_port, baudrate, moonraker_address):
         self.moonraker_address = moonraker_address
         self.serial_port = serial_port
         self.baudrate = baudrate
-        if not self.checkMoonraker():
-            raise ConnectionError(
-                "Moonraker:", self.moonraker_address, "is not reachable."
+        
+        serial_is_alive = False
+        moonraker_is_alive = False
+
+        try:
+            if not self.checkMoonraker():
+                return
+
+            self.serial_con = serial.Serial(
+                port=self.serial_port, baudrate=self.baudrate
             )
 
-        self.serial_con = serial.Serial(port=self.serial_port, baudrate=self.baudrate)
+            self.serial_process = Process(target=self.listenSerial)
+            self.moonraker_process = Process(target=self.listenMoonraker)
 
-        self.serial_process = Process(target=self.listenSerial)
-        self.moonraker_process = Process(target=self.listenMoonraker)
+            self.serial_process.start()
+            serial_is_alive = self.serial_process.is_alive
 
-        self.serial_process.start()
-        self.moonraker_process.start()
+            self.moonraker_process.start()
+            moonraker_is_alive = self.moonraker_process.is_alive
 
-        self.is_connected = (
-            self.serial_process.is_alive and self.moonraker_process.is_alive
-        )
+        except:
+            pass
+
+        self.is_connected = serial_is_alive and moonraker_is_alive
         # one of the processes is not running, cleanup
         if not self.is_connected:
             self.disconnect()
 
     def disconnect(self):
         self.is_connected = False
-        self.serial_process.terminate()
-        self.moonraker_process.terminate()
-        self.serial_con.close()
+        if self.serial_process:
+            self.serial_process.terminate()
+            self.serial_process = None
+        if self.moonraker_process:
+            self.moonraker_process.terminate()
+            self.moonraker_process = None
+        
         self.serial_con = None
 
+        self.moonraker_address = None
+        self.serial_port = None
+        self.baudrate = None
+
     def checkMoonraker(self):
-        conn = http.client.HTTPConnection(self.moonraker_address)
-        conn.request("POST", "/printer/info")
-        response = conn.getresponse()
-        conn.close()
-        return response.reason == "OK"
+        try:
+            with http.client.HTTPConnection(self.moonraker_address) as conn:
+                conn.request("POST", "/printer/info")
+                response = conn.getresponse()
+                return response.reason == "OK"
+        except:
+            return False
 
     def listenSerial(self):
         try:

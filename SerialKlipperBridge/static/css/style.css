@@ -35,11 +35,17 @@ h1 {
     margin-left: 0.7em;
 }
 
+.form_error {
+    background-color: rgb(236, 46, 46);
+    border: 2px solid rgb(141, 2, 2);
+}
+
 .form_label {
     color: white;
     background: none;
     font-size: 1.75rem;
     background: none;
+    text-align: left;
 }
 
 .form_field {

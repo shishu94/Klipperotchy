@@ -2,6 +2,12 @@
 
 {% block content %}
 <form method="post">
+    {% if failure %}
+    <div class="form_section form_error">
+        <label class="form_label">Connection failed. Please verify the parameters.</label>
+    </div>
+    {% endif %}
+    <input type="hidden" name="connect_bridge">
     <div class="form_section">
         <label class="form_label">Moonraker</label>
         <input type="text" name="moonraker_address" placeholder="[ip_address]:7125" class="form_field"></input>
