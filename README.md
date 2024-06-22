@@ -75,4 +75,8 @@ cd ~ && git clone https://github.com/shishu94/Klipperotchy.git
 ```
 
 ## Autostart bridge
-TODO
+TODO: cleanup this section, add systemd for autostart, consider package the flask app (wheel) and use Waitress to run the server.
+
+```
+flask --app app run --host=0.0.0.0
+```
