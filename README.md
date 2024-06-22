@@ -74,5 +74,5 @@ Then clone this repository:
 cd ~ && git clone https://github.com/shishu94/Klipperotchy.git
 ```
 
-
-
+## Autostart bridge
+TODO
