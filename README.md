@@ -117,8 +117,12 @@ You should see a page like this:
 - Click Connect
 
 If everything is set properly, you should see a page like this:
-![connected _screen](doc_images/Connect_screen_s2m_connected.png)
+![connected _screen](doc_images/Connect_screen_s2m_connected_clear.png)
 
 Once you see the red disconnect, the bridge is ready to accept a connection from the P3.
+
+The bridge works best at a baudrate of 250000 so I advise to use it. Otherwise the autoconnect will match 115200 most of the time.
+
+![connected _screen](doc_images/Connect_screen_s2m_connected.png)
 
 Please proceed with the [connection guide](https://support.mosaicmfg.com/Guide/Connected+Mode+with+Palette+3/169?lang=en) from Mosaic.
