@@ -70,10 +70,11 @@ class SerialMoonrakerBridge:
 
     def checkMoonraker(self):
         try:
-            with http.client.HTTPConnection(self.moonraker_address) as conn:
-                conn.request("POST", "/printer/info")
-                response = conn.getresponse()
-                return response.reason == "OK"
+            conn = http.client.HTTPConnection(self.moonraker_address)
+            conn.request("POST", "/printer/info")
+            response = conn.getresponse()
+            conn.close()
+            return response.reason == "OK"
         except:
             return False
 
