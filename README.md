@@ -74,7 +74,7 @@ Then clone this repository:
 cd ~ && git clone https://github.com/shishu94/Klipperotchy.git
 ```
 
-## Staert bridge
+## Start bridge
 TODO: consider package the flask app (wheel) and use Waitress to run the server.
 
 The app runs via flask. To start it simply run this in ssh. This will start the bridge on port 5000. Feel free to change the port if needed.
@@ -84,15 +84,17 @@ cd ~/Klipperotchy/SerialMoonrakerBridge
 flask --app app run --host=0.0.0.0 --port=5000
 ```
 
-This solution is only listed as FYI. One needs to connect the PiZ2W via ssh, not very convenient. Ideally we want the service to run directly after boot. To do so we will install a systemd service.
+This solution is only listed here as a FYI. One needs to connect the PiZ2W via ssh, which is not very convenient. Ideally we want the service to run directly after boot. To do so, we will install a systemd service.
 
-Run the folloying via ssh:
+Run the following via ssh:
 ```
 sudo cp ~/Klipperotchy/serial_moonraker_bridge.service /etc/systemd/system
 sudo chmod 644 /etc/systemd/system/serial_moonraker_bridge.service
 sudo systemctl daemon-reload
 sudo systemctl enable serial_moonraker_bridge.service
 ```
+Note: If the default port 5000 doesn't work for you, edit the file serial_moonraker_bridge.service to define the port then do a systemd reload.
+
 Now reboot the Pi.
 
 On restart, the bridge should be available at the local address http://[piz2w-IP]:5000
