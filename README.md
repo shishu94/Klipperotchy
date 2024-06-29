@@ -115,4 +115,8 @@ You should see a page like this:
 - Hit connect
 
 If everything is set properly, you should see a page like this:
-TODO add pic
+![connected _screen](doc_images/Connect_screen_s2m_connected.png)
+
+Once you see the red disconnect, the bridge is ready to accept a connection from the P3.
+
+Please proceed with the [connection guide](https://support.mosaicmfg.com/Guide/Connected+Mode+with+Palette+3/169?lang=en) from Mosaic.
