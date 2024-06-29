@@ -1,0 +1,12 @@
+[Unit]
+Description=Serial to Moonraker bridge. Allows a serial source to communicate to Moonraker over the network.
+After=multi-user.target
+
+[Service]
+Type=idle
+User=root
+ExecStart=/usr/bin/flask --app /root/Klipperotchy/SerialMoonrakerBridge/app.py run --host 0.0.0.0 --port 5000
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
