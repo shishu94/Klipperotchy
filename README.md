@@ -102,7 +102,7 @@ On restart, the bridge should be available at the local address http://[piz2w-IP
 The PiZ2W will act as a slave USB, to do so, use a micro usb cable connected to the left port (for peripherals)
 ![piz2w_layout](doc_images/RPiZero2WLayout_803x442.webp)
 
-The connect the USB-A to the P3. This will power the pi directly from the P3. The P3 can power the PI if onlz used for the bridge. If running anything else, please ensure that you power the PI properly.
+Then connect the USB-A to the P3. This will power the pi directly from the P3. The P3 can power the PI if onlz used for the bridge. If running anything else, please ensure that you power the PI properly.
 
 ### Configure the bridge
 Once the pi started, access the bridge app at http://[replace-with-your-piz2w-IP]:5000
