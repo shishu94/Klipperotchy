@@ -114,7 +114,7 @@ You should see a page like this:
 - Set the moonraker address at the minimum. Mandatory
 - Serial port and baudrate can stay as is. Optional
 - Set the P3 address if you want to control the brigde and the P3 on the same page. Optional
-- Hit connect
+- Click Connect
 
 If everything is set properly, you should see a page like this:
 ![connected _screen](doc_images/Connect_screen_s2m_connected.png)
