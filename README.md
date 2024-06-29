@@ -74,9 +74,45 @@ Then clone this repository:
 cd ~ && git clone https://github.com/shishu94/Klipperotchy.git
 ```
 
-## Autostart bridge
+## Staert bridge
 TODO: cleanup this section, add systemd for autostart, consider package the flask app (wheel) and use Waitress to run the server.
 
+The app runs via flask. To start it simply run this in ssh. This will start the bridge on port 5000. Feel free to change the port if needed.
+
 ```
-flask --app app run --host=0.0.0.0
+cd ~/Klipperotchy/SerialMoonrakerBridge
+flask --app app run --host=0.0.0.0 --port=5000
 ```
+
+This solution is only listed as FYI. One needs to connect the PiZ2W via ssh, not very convenient. Ideally we want the service to run directly after boot. To do so we will install a systemd service.
+
+Run the folloying via ssh:
+```
+sudo cp ~/Klipperotchy/serial_moonraker_bridge.service /etc/systemd/system
+sudo chmod 644 /etc/systemd/system/serial_moonraker_bridge.service
+sudo systemctl daemon-reload
+sudo systemctl enable serial_moonraker_bridge.service
+```
+Now reboot the Pi.
+
+On restart, the bridge should be available at the local address http://[piz2w-IP]:5000
+
+## Connect and configure the bridge
+### Connect the cable
+The PiZ2W will act as a slave USB, to do so, use a micro usb cable connected to the left port (for peripherals)
+![piz2w_layout](doc_images/RPiZero2WLayout_803x442.webp)
+
+The connect the USB-A to the P3. This will power the pi directly from the P3. The P3 can power the PI if onlz used for the bridge. If running anything else, please ensure that you power the PI properly.
+
+### Configure the bridge
+Once the pi started, access the bridge app at http://[replace-with-your-piz2w-IP]:5000
+You should see a page like this:
+![connect _screen](doc_images/Connect_screen_s2m.png)
+
+- Set the moonraker address at the minimum. Mandatory
+- Serial port and baudrate can stay as is. Optional
+- Set the P3 address if you want to control the brigde and the P3 on the same page. Optional
+- Hit connect
+
+If everything is set properly, you should see a page like this:
+TODO add pic
