@@ -75,7 +75,7 @@ cd ~ && git clone https://github.com/shishu94/Klipperotchy.git
 ```
 
 ## Staert bridge
-TODO: cleanup this section, add systemd for autostart, consider package the flask app (wheel) and use Waitress to run the server.
+TODO: consider package the flask app (wheel) and use Waitress to run the server.
 
 The app runs via flask. To start it simply run this in ssh. This will start the bridge on port 5000. Feel free to change the port if needed.
 
@@ -102,7 +102,7 @@ On restart, the bridge should be available at the local address http://[piz2w-IP
 The PiZ2W will act as a slave USB, to do so, use a micro usb cable connected to the left port (for peripherals)
 ![piz2w_layout](doc_images/RPiZero2WLayout_803x442.webp)
 
-Then connect the USB-A to the P3. This will power the pi directly from the P3. The P3 can power the PI if onlz used for the bridge. If running anything else, please ensure that you power the PI properly.
+Then connect the USB-A to the P3. This will power the Pi directly from the P3. The P3 can power the PI if only used for the bridge. If running anything else, please ensure that you power the Pi properly.
 
 ### Configure the bridge
 Once the pi started, access the bridge app at http://[replace-with-your-piz2w-IP]:5000
