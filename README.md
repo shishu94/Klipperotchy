@@ -49,8 +49,7 @@ In the file **config.txt** at the end of the file append the line:
 ```
 dtoverlay=dwc2
 ```
-
-In the file **cmdline.txt** at the end of the first line append:
+In the file **cmdline.txt** After rootwait (the last word on the first line) add a space and then append:
 ```
 modules-load=dwc2,g_serial
 ```
