@@ -1,0 +1,979 @@
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:48.5 /0.0 T0:151.4 /0.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:48.3 /0.0 T0:147.1 /0.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:48.1 /0.0 T0:143.0 /0.0</Moonraker>
+INFO:root:<Serial>M115</Serial>
+INFO:root:<MoonRaker>// FIRMWARE_NAME:Klipper FIRMWARE_VERSION:v0.11.0-311-g9e765dae-dirty</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:48.0 /0.0 T0:140.6 /0.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:47.8 /0.0 T0:136.7 /0.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:47.6 /0.0 T0:133.0 /0.0</Moonraker>
+INFO:root:<Serial>M220 S100</Serial>
+INFO:root:<Serial>M220 S100</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:47.4 /0.0 T0:129.5 /0.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:47.2 /0.0 T0:126.0 /0.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:47.0 /0.0 T0:122.5 /0.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:46.9 /0.0 T0:119.4 /0.0</Moonraker>
+INFO:root:<Serial>M140 S50</Serial>
+INFO:root:<Serial>M104 T0 S210</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:46.6 /50.0 T0:116.3 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:46.5 /50.0 T0:131.0 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:46.6 /50.0 T0:156.6 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:47.1 /50.0 T0:181.9 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:47.5 /50.0 T0:202.3 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:48.1 /50.0 T0:210.8 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:48.7 /50.0 T0:213.5 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:49.1 /50.0 T0:213.9 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:49.5 /50.0 T0:213.5 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:49.8 /50.0 T0:212.2 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:211.1 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.3 /50.0 T0:210.7 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.5 /50.0 T0:210.6 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.6 /50.0 T0:210.0 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.8 /50.0 T0:209.7 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.9 /50.0 T0:210.2 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:51.0 /50.0 T0:210.4 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:51.1 /50.0 T0:209.7 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:51.1 /50.0 T0:209.6 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:51.2 /50.0 T0:210.4 /210.0</Moonraker>
+INFO:root:<Serial>G91</Serial>
+INFO:root:<Serial>M83</Serial>
+INFO:root:<Serial>G90</Serial>
+INFO:root:<Serial>M82</Serial>
+INFO:root:<Serial>G91</Serial>
+INFO:root:<Serial>M83</Serial>
+INFO:root:<Serial>G90</Serial>
+INFO:root:<Serial>M82</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:51.1 /50.0 T0:210.2 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:51.1 /50.0 T0:209.6 /210.0</Moonraker>
+INFO:root:<Serial>G91</Serial>
+INFO:root:<Serial>M83</Serial>
+INFO:root:<Serial>G90</Serial>
+INFO:root:<Serial>M82</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:51.1 /50.0 T0:209.8 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:51.1 /50.0 T0:210.2 /210.0</Moonraker>
+INFO:root:<Serial>G91</Serial>
+INFO:root:<Serial>M83</Serial>
+INFO:root:<Serial>G90</Serial>
+INFO:root:<Serial>M82</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:51.1 /50.0 T0:210.1 /210.0</Moonraker>
+INFO:root:<Serial>G91</Serial>
+INFO:root:<Serial>M83</Serial>
+INFO:root:<Serial>G90</Serial>
+INFO:root:<Serial>M82</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:51.0 /50.0 T0:209.5 /210.0</Moonraker>
+INFO:root:<Serial>G91</Serial>
+INFO:root:<Serial>M83</Serial>
+INFO:root:<Serial>G90</Serial>
+INFO:root:<Serial>M82</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:51.0 /50.0 T0:209.9 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:51.0 /50.0 T0:210.7 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:51.0 /50.0 T0:210.3 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:51.0 /50.0 T0:209.8 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.9 /50.0 T0:210.1 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.8 /50.0 T0:210.4 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.8 /50.0 T0:209.7 /210.0</Moonraker>
+INFO:root:<Serial>G90</Serial>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>M108 T0</Serial>
+INFO:root:<Serial>M82</Serial>
+INFO:root:<Serial>_#_START_JOB_#_</Serial>
+INFO:root:<MoonRaker>// Unknown command:"_#"</Moonraker>
+INFO:root:<Serial>START_PRINT_NO_PRIME EXTRUDER_TEMP=210 BED_TEMP=50</Serial>
+INFO:root:<MoonRaker>// probe at -20.000,174.000 is z=1.617500</Moonraker>
+INFO:root:<MoonRaker>// probe at -20.000,174.000 is z=1.610000</Moonraker>
+INFO:root:<MoonRaker>// probe at 210.000,174.000 is z=1.303750</Moonraker>
+INFO:root:<MoonRaker>// probe at 210.000,174.000 is z=1.316250</Moonraker>
+INFO:root:<MoonRaker>// Making the following Z adjustments:
+// stepper_z = 0.134015
+// stepper_z1 = -0.292539</Moonraker>
+INFO:root:<MoonRaker>// Retries: 0/5 Probed points range: 0.303750 tolerance: 0.010000</Moonraker>
+INFO:root:<MoonRaker>// probe at -20.000,174.000 is z=1.576289</Moonraker>
+INFO:root:<MoonRaker>// probe at -20.000,174.000 is z=1.578789</Moonraker>
+INFO:root:<MoonRaker>// probe at 210.000,174.000 is z=1.526289</Moonraker>
+INFO:root:<MoonRaker>// probe at 210.000,174.000 is z=1.530039</Moonraker>
+INFO:root:<MoonRaker>// Making the following Z adjustments:
+// stepper_z = 0.066318
+// stepper_z1 = -0.003005</Moonraker>
+INFO:root:<MoonRaker>// Retries: 1/5 Probed points range: 0.049375 tolerance: 0.010000</Moonraker>
+INFO:root:<MoonRaker>// probe at -20.000,174.000 is z=1.518005</Moonraker>
+INFO:root:<MoonRaker>// probe at -20.000,174.000 is z=1.520505</Moonraker>
+INFO:root:<MoonRaker>// probe at 210.000,174.000 is z=1.505505</Moonraker>
+INFO:root:<MoonRaker>// probe at 210.000,174.000 is z=1.508005</Moonraker>
+INFO:root:<MoonRaker>// Making the following Z adjustments:
+// stepper_z = 0.002449
+// stepper_z1 = -0.015118</Moonraker>
+INFO:root:<MoonRaker>// Retries: 2/5 Probed points range: 0.012500 tolerance: 0.010000</Moonraker>
+INFO:root:<MoonRaker>// probe at -20.000,174.000 is z=1.522618</Moonraker>
+INFO:root:<MoonRaker>// probe at -20.000,174.000 is z=1.523868</Moonraker>
+INFO:root:<MoonRaker>// probe at 210.000,174.000 is z=1.520118</Moonraker>
+INFO:root:<MoonRaker>// probe at 210.000,174.000 is z=1.523868</Moonraker>
+INFO:root:<MoonRaker>// Making the following Z adjustments:
+// stepper_z = 0.003366
+// stepper_z1 = 0.001591</Moonraker>
+INFO:root:<MoonRaker>// Retries: 3/5 Probed points range: 0.001250 tolerance: 0.010000</Moonraker>
+INFO:root:<MoonRaker>// No objects detected! Check your gcode and make sure that EXCLUDE_OBJECT_DEFINE is happening before BED_MESH_CALIBRATE is called. Defaulting to regular meshing.</Moonraker>
+INFO:root:<MoonRaker>// Generating new points...</Moonraker>
+INFO:root:<MoonRaker>// bed_mesh: generated points
+// Index |  Tool Adjusted  |   Probe</Moonraker>
+INFO:root:<MoonRaker>// 0   | (-16.0, 16.0)   | (20.0, 5.0)</Moonraker>
+INFO:root:<MoonRaker>// 1   | (59.0, 16.0)    | (95.0, 5.0)</Moonraker>
+INFO:root:<MoonRaker>// 2   | (134.0, 16.0)   | (170.0, 5.0)</Moonraker>
+INFO:root:<MoonRaker>// 3   | (209.0, 16.0)   | (245.0, 5.0)</Moonraker>
+INFO:root:<MoonRaker>// 4   | (209.0, 97.7)   | (245.0, 86.7)</Moonraker>
+INFO:root:<MoonRaker>// 5   | (134.0, 97.7)   | (170.0, 86.7)</Moonraker>
+INFO:root:<MoonRaker>// 6   | (59.0, 97.7)    | (95.0, 86.7)</Moonraker>
+INFO:root:<MoonRaker>// 7   | (-16.0, 97.7)   | (20.0, 86.7)</Moonraker>
+INFO:root:<MoonRaker>// 8   | (-16.0, 179.3)  | (20.0, 168.3)</Moonraker>
+INFO:root:<MoonRaker>// 9   | (59.0, 179.3)   | (95.0, 168.3)</Moonraker>
+INFO:root:<MoonRaker>// 10  | (134.0, 179.3)  | (170.0, 168.3)</Moonraker>
+INFO:root:<MoonRaker>// 11  | (209.0, 179.3)  | (245.0, 168.3)</Moonraker>
+INFO:root:<MoonRaker>// 12  | (209.0, 261.0)  | (245.0, 250.0)</Moonraker>
+INFO:root:<MoonRaker>// 13  | (134.0, 261.0)  | (170.0, 250.0)</Moonraker>
+INFO:root:<MoonRaker>// 14  | (59.0, 261.0)   | (95.0, 250.0)</Moonraker>
+INFO:root:<MoonRaker>// 15  | (-16.0, 261.0)  | (20.0, 250.0)</Moonraker>
+INFO:root:<MoonRaker>// probe at -16.000,16.000 is z=1.478409</Moonraker>
+INFO:root:<MoonRaker>// probe at -16.000,16.000 is z=1.474659</Moonraker>
+INFO:root:<MoonRaker>// probe at 59.000,16.000 is z=1.615909</Moonraker>
+INFO:root:<MoonRaker>// probe at 59.000,16.000 is z=1.624659</Moonraker>
+INFO:root:<MoonRaker>// probe at 134.000,16.000 is z=1.667159</Moonraker>
+INFO:root:<MoonRaker>// probe at 134.000,16.000 is z=1.672159</Moonraker>
+INFO:root:<MoonRaker>// probe at 209.000,16.000 is z=1.602159</Moonraker>
+INFO:root:<MoonRaker>// probe at 209.000,16.000 is z=1.604659</Moonraker>
+INFO:root:<MoonRaker>// probe at 209.000,97.659 is z=1.514659</Moonraker>
+INFO:root:<MoonRaker>// probe at 209.000,97.659 is z=1.519659</Moonraker>
+INFO:root:<MoonRaker>// probe at 134.000,97.659 is z=1.564659</Moonraker>
+INFO:root:<MoonRaker>// probe at 134.000,97.659 is z=1.555909</Moonraker>
+INFO:root:<MoonRaker>// probe at 59.000,97.659 is z=1.529659</Moonraker>
+INFO:root:<MoonRaker>// probe at 59.000,97.659 is z=1.532159</Moonraker>
+INFO:root:<MoonRaker>// probe at -16.000,97.659 is z=1.443409</Moonraker>
+INFO:root:<MoonRaker>// probe at -16.000,97.659 is z=1.448409</Moonraker>
+INFO:root:<MoonRaker>// probe at -16.000,179.319 is z=1.530909</Moonraker>
+INFO:root:<MoonRaker>// probe at -16.000,179.319 is z=1.520909</Moonraker>
+INFO:root:<MoonRaker>// probe at 59.000,179.319 is z=1.605909</Moonraker>
+INFO:root:<MoonRaker>// probe at 59.000,179.319 is z=1.607159</Moonraker>
+INFO:root:<MoonRaker>// probe at 134.000,179.319 is z=1.577159</Moonraker>
+INFO:root:<MoonRaker>// probe at 134.000,179.319 is z=1.588409</Moonraker>
+INFO:root:<MoonRaker>// probe at 209.000,179.319 is z=1.503409</Moonraker>
+INFO:root:<MoonRaker>// probe at 209.000,179.319 is z=1.505909</Moonraker>
+INFO:root:<MoonRaker>// probe at 209.000,260.981 is z=1.437159</Moonraker>
+INFO:root:<MoonRaker>// probe at 209.000,260.981 is z=1.438409</Moonraker>
+INFO:root:<MoonRaker>// probe at 134.000,260.981 is z=1.569659</Moonraker>
+INFO:root:<MoonRaker>// probe at 134.000,260.981 is z=1.560909</Moonraker>
+INFO:root:<MoonRaker>// probe at 59.000,260.981 is z=1.589659</Moonraker>
+INFO:root:<MoonRaker>// probe at 59.000,260.981 is z=1.589659</Moonraker>
+INFO:root:<MoonRaker>// probe at -16.000,260.981 is z=1.497159</Moonraker>
+INFO:root:<MoonRaker>// probe at -16.000,260.981 is z=1.500909</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>// Mesh Bed Leveling Complete</Moonraker>
+INFO:root:<MoonRaker>// Bed Mesh state has been saved to profile [default]
+// for the current session.  The SAVE_CONFIG command will
+// update the printer config file and restart the printer.</Moonraker>
+INFO:root:<MoonRaker>File opened:RemotePrint.gcode Size:15</Moonraker>
+INFO:root:<MoonRaker>File selected</Moonraker>
+INFO:root:<MoonRaker>B:50.3 /50.0 T0:210.3 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.3 /50.0 T0:210.3 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.3 /50.0 T0:210.3 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.3 /50.0 T0:210.3 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.3 /50.0 T0:210.3 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.3 /50.0 T0:210.3 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.3 /50.0 T0:210.3 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.3 /50.0 T0:210.3 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.3 /50.0 T0:210.3 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.3 /50.0 T0:210.3 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.3 /50.0 T0:210.3 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.3 /50.0 T0:210.3 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.3 /50.0 T0:210.3 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.3 /50.0 T0:210.3 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.3 /50.0 T0:210.3 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.3 /50.0 T0:210.3 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.3 /50.0 T0:210.3 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.3 /50.0 T0:210.3 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.3 /50.0 T0:210.3 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.3 /50.0 T0:210.3 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.3 /50.0 T0:210.3 /210.0</Moonraker>
+INFO:root:<Serial>M82</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.3 /50.0 T0:210.4 /210.0</Moonraker>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>M108 T0</Serial>
+INFO:root:<Serial>M104 S210 T0</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.3 /50.0 T0:209.9 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.3 /50.0 T0:209.7 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.2 /50.0 T0:209.9 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.2 /50.0 T0:209.8 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.2 /50.0 T0:209.6 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.2 /50.0 T0:210.2 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.2 /50.0 T0:210.1 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.2 /50.0 T0:209.6 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.2 /50.0 T0:209.7 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.2 /50.0 T0:210.2 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.2 /50.0 T0:210.1 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.2 /50.0 T0:209.6 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.2 /50.0 T0:209.9 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.2 /50.0 T0:210.4 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.2 /50.0 T0:209.9 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.2 /50.0 T0:209.7 /210.0</Moonraker>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.2 /50.0 T0:209.6 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:210.5 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.2 /50.0 T0:210.1 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:210.4 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:209.6 /210.0</Moonraker>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:210.1 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:210.1 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:210.5 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:210.4 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:210.3 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:210.1 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:209.6 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:209.6 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:210.3 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:210.0 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:209.8 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:210.0 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.2 /50.0 T0:209.8 /210.0</Moonraker>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>M104 S210 T0</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:209.7 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:210.4 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:209.9 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:49.9 /50.0 T0:209.9 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.4 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:209.8 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.3 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:209.7 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:210.4 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:209.7 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:209.6 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:209.8 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:210.1 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:210.3 /210.0</Moonraker>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:210.2 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:209.8 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:210.3 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:209.5 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:209.4 /210.0</Moonraker>
+INFO:root:<Serial>M220 S50</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:210.3 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:209.7 /210.0</Moonraker>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>M104 S210 T0</Serial>
+INFO:root:<Serial>M106 S255</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:209.4 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:209.7 /210.0</Moonraker>
+INFO:root:<Serial>M220 S100</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:209.2 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:209.2 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:209.6 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:209.6 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:209.2 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:209.4 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.2 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:209.9 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.5 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:49.9 /50.0 T0:210.3 /210.0</Moonraker>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.4 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.1 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.3 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:49.9 /50.0 T0:209.5 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:49.9 /50.0 T0:209.4 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:209.7 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:209.5 /210.0</Moonraker>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>M400</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.0 /210.0</Moonraker>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.2 /210.0</Moonraker>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:210.1 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.2 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.6 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:49.9 /50.0 T0:209.9 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:49.9 /50.0 T0:209.5 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:209.7 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:209.4 /210.0</Moonraker>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.4 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.4 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.0 /210.0</Moonraker>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.2 /210.0</Moonraker>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:49.9 /50.0 T0:209.7 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:49.9 /50.0 T0:209.8 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:49.9 /50.0 T0:210.0 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.2 /210.0</Moonraker>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:49.9 /50.0 T0:209.9 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.2 /210.0</Moonraker>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.0 /210.0</Moonraker>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:209.8 /210.0</Moonraker>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:209.8 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:49.9 /50.0 T0:210.3 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:49.9 /50.0 T0:210.2 /210.0</Moonraker>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:49.9 /50.0 T0:210.5 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:49.8 /50.0 T0:210.5 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:49.8 /50.0 T0:210.3 /210.0</Moonraker>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:49.8 /50.0 T0:209.9 /210.0</Moonraker>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:49.9 /50.0 T0:209.6 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:49.9 /50.0 T0:210.3 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:49.8 /50.0 T0:210.1 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:49.8 /50.0 T0:209.9 /210.0</Moonraker>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:49.8 /50.0 T0:210.2 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:49.8 /50.0 T0:210.3 /210.0</Moonraker>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:49.9 /50.0 T0:210.3 /210.0</Moonraker>
+INFO:root:<Serial>M400</Serial>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:49.8 /50.0 T0:210.2 /210.0</Moonraker>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:49.8 /50.0 T0:210.0 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:49.8 /50.0 T0:209.5 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:49.9 /50.0 T0:210.1 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:49.9 /50.0 T0:210.4 /210.0</Moonraker>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:49.9 /50.0 T0:209.7 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:49.9 /50.0 T0:209.7 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:49.9 /50.0 T0:209.8 /210.0</Moonraker>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:209.8 /210.0</Moonraker>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:209.5 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.0 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.1 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.5 /210.0</Moonraker>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:209.8 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.0 /210.0</Moonraker>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:49.9 /50.0 T0:209.8 /210.0</Moonraker>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:49.9 /50.0 T0:210.2 /210.0</Moonraker>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:209.5 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:49.9 /50.0 T0:209.8 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:49.9 /50.0 T0:210.5 /210.0</Moonraker>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:49.9 /50.0 T0:209.7 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:49.9 /50.0 T0:210.3 /210.0</Moonraker>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:209.9 /210.0</Moonraker>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.3 /210.0</Moonraker>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:209.6 /210.0</Moonraker>
+INFO:root:<Serial>M220 S50</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.1 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.2 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.3 /210.0</Moonraker>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.0 /210.0</Moonraker>
+INFO:root:<Serial>M220 S100</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:209.9 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:209.9 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.3 /210.0</Moonraker>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>M400</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:49.9 /50.0 T0:209.5 /210.0</Moonraker>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:209.7 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.3 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.4 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:49.9 /50.0 T0:210.1 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:209.8 /210.0</Moonraker>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:209.7 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:209.7 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:210.2 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:209.8 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:209.6 /210.0</Moonraker>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:210.1 /210.0</Moonraker>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:209.8 /210.0</Moonraker>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:209.9 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:210.1 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:210.2 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:210.2 /210.0</Moonraker>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:209.6 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:209.7 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:209.9 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:210.2 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.1 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:209.7 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:209.7 /210.0</Moonraker>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:209.6 /210.0</Moonraker>
+INFO:root:<Serial>M400</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.1 /210.0</Moonraker>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.4 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.4 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.4 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:49.9 /50.0 T0:210.1 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:209.7 /210.0</Moonraker>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:209.8 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:209.8 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:209.7 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.2 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:209.8 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:209.7 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:210.1 /210.0</Moonraker>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:209.9 /210.0</Moonraker>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:210.1 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:210.5 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:210.2 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:209.6 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.6 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:209.7 /210.0</Moonraker>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>M104 S210 T0</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.0 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:209.6 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:209.5 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:209.5 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:209.6 /210.0</Moonraker>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:209.8 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:209.9 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.3 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:49.9 /50.0 T0:209.8 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:49.9 /50.0 T0:209.9 /210.0</Moonraker>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>M400</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:209.8 /210.0</Moonraker>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:49.9 /50.0 T0:210.2 /210.0</Moonraker>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:49.9 /50.0 T0:210.0 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.1 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:49.9 /50.0 T0:210.7 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:209.8 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:209.4 /210.0</Moonraker>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:209.7 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:209.8 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:209.9 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:209.9 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.2 /210.0</Moonraker>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.3 /210.0</Moonraker>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.2 /210.0</Moonraker>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.0 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.5 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.1 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:210.3 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:209.7 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:210.2 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.5 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.4 /210.0</Moonraker>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:49.9 /50.0 T0:209.9 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:209.8 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.1 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:49.9 /50.0 T0:209.8 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.3 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.4 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:49.9 /50.0 T0:209.9 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:209.6 /210.0</Moonraker>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>M400</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:209.6 /210.0</Moonraker>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:209.7 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:209.8 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.2 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:209.8 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:209.6 /210.0</Moonraker>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:209.5 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.6 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.4 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.8 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.1 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.4 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:209.7 /210.0</Moonraker>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.1 /210.0</Moonraker>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.0 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.2 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:209.8 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.3 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.2 /210.0</Moonraker>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:49.9 /50.0 T0:210.0 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:49.9 /50.0 T0:210.0 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:49.9 /50.0 T0:209.9 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:49.9 /50.0 T0:210.4 /210.0</Moonraker>
+INFO:root:<Serial>M400</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:49.9 /50.0 T0:209.6 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.7 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:209.7 /210.0</Moonraker>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>M104 S210 T0</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.3 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.4 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:209.7 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.2 /210.0</Moonraker>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:209.8 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:209.9 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:209.9 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:210.6 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:210.2 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:209.3 /210.0</Moonraker>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.2 /50.0 T0:210.2 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:210.1 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:210.5 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:210.2 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:209.8 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:209.5 /210.0</Moonraker>
+INFO:root:<Serial>G92 E0</Serial>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.1 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:210.2 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:209.9 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:210.1 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.0 /210.0</Moonraker>
+INFO:root:<Serial>M107</Serial>
+INFO:root:<Serial>_#_END_JOB_#_</Serial>
+INFO:root:<MoonRaker>// Unknown command:"_#"</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.0 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.0 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.0 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:210.9 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:211.3 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:211.0 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.7 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.8 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.3 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:49.9 /50.0 T0:209.8 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:49.9 /50.0 T0:210.1 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.5 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:49.9 /50.0 T0:209.9 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:49.9 /50.0 T0:209.7 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:49.9 /50.0 T0:210.3 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.2 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:209.7 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:209.9 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.4 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.0 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:209.7 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.0 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.3 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:209.8 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:209.6 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:210.3 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:210.2 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:209.6 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:209.8 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:210.4 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.0 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:209.6 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:210.4 /210.0</Moonraker>
+INFO:root:<MoonRaker>Done printing file</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:210.3 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:209.8 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.1 /50.0 T0:209.8 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.5 /210.0</Moonraker>
+INFO:root:<Serial>M105</Serial>
+INFO:root:<MoonRaker>B:50.0 /50.0 T0:210.1 /210.0</Moonraker>
