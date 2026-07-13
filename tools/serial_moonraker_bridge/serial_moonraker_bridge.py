@@ -5,6 +5,7 @@ import logging
 import json
 import argparse
 import http.client
+import sys
 
 from urllib.parse import quote
 from multiprocessing import Process
@@ -18,18 +19,18 @@ args = parser.parse_args()
 
 numeric_level = getattr(logging, args.loglevel.upper(), None)
 if not isinstance(numeric_level, int):
-    raise ValueError('Invalid log level: %s' % loglevel)
+    raise ValueError('Invalid log level: %s' % args.loglevel)
 logging.basicConfig(level=numeric_level)
 
 moonraker_address=args.moonraker
 
 def checkMoonraker():
     conn = http.client.HTTPConnection(moonraker_address)                                                       
-    conn.request("POST", "/printer/info")                    
-    response = conn.getresponse()                                                         
+    conn.request("GET", "/printer/info")
+    response = conn.getresponse()
     conn.close()
-    if response.reason != 'OK':
-        exit()
+    if response.status != 200:
+        sys.exit()
       
 checkMoonraker()
 
@@ -52,7 +53,7 @@ def listenPalette():
 			
 		response = conn.getresponse()                                                         
 		conn.close()
-		if response.reason == 'OK':
+		if response.status == 200:
 			palette_ser.write(b'ok\n')
 
 	
@@ -63,7 +64,7 @@ async def listenMoonrakerAsync():
         while True:
             response = await moonraker_ws.recv()
             response_object = json.loads(response)
-            if response_object['method'] == "notify_gcode_response":
+            if response_object.get('method') == "notify_gcode_response":
                 for item in response_object['params']:
                     logging.info('<MoonRaker>' + item + '</Moonraker>')
                     palette_ser.write((item+'\n').encode('utf-8'))
