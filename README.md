@@ -13,6 +13,16 @@ It is in very early stage, but it will get an install script and run as a servic
 As of now the script is fully functional, but it doesn't actively check or recovers from failures.
 In practice it has been very reliable with my Palette 3 Pro in connected mode.
 
+# Changes in this fork (`fix/bridge-bugs`)
+Reliability and usability fixes for Palette 3 (Pro) connected mode:
+
+- **Auto-connect** – fixed Moonraker/Palette addresses (set at the top of `SerialMoonrakerBridge.py`), retries every second, greets the Palette until it answers, and connects on boot with no manual step. Enable/disable from the web page.
+- **Live status dots** – `MR` (Moonraker) and `P3` (Palette) in the header: red = down, green = up.
+- **Self-healing** – a 30 s heartbeat re-greets the Palette after a drop; short HTTP timeouts so `MR` turns red the moment the printer is off.
+- **Time-bounded batching** – limits how far the Palette runs ahead in *seconds of print* (not move count) and flushes the mid-splice `M220` slow-down immediately, so the filament buffer can't run dry.
+- **End-of-print fix** – `END_PRINT` and the trailing fan-off are no longer left stuck in the batcher.
+- **Web log** – live view of the last 20 timestamped commands, with the Palette page embedded below it.
+
 # This setup
 The bridge can run on a klipper install, but to keep thing simple we will focus on creating a dedicated wifi bridge based on the Raspberry Pi Zero 2W.
 
