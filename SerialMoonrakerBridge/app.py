@@ -1,55 +1,45 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, jsonify
 from SerialMoonrakerBridge import SerialMoonrakerBridge
 
 app = Flask(__name__)
 bridge = SerialMoonrakerBridge()
 
-# Remembered across requests so the Palette 3 iframe survives page reloads.
-p3_address = None
+# The Palette's own web UI, shown in the always-on iframe.  Fixed on this setup.
+PALETTE_WEB = "192.168.1.90:5000"
+
+# Start auto-connecting immediately: the supervisor keeps Moonraker + Palette
+# linked, retrying every second and greeting the Palette until it answers.
+bridge.start_supervisor()
 
 
-def defaultIfEmpty(request, key, default):
-    value = request.form.get(key, "").strip()
-    if value == "":
-        value = default
-    return value
+@app.route("/status")
+def status():
+    # Polled by the header dots -- MR = printer/Moonraker, P3 = Palette.
+    return jsonify(
+        moonraker=bridge.moonraker_connected(),
+        palette=bridge.palette_connected(),
+        connected=bridge.is_connected,
+        auto=bool(bridge.auto_connect.value),
+    )
+
+
+@app.route("/recent")
+def recent():
+    # Last 10 P3<->Moonraker traffic lines for the field under the iframe.
+    return jsonify(lines=bridge.recent_lines())
 
 
 @app.route("/", methods=("GET", "POST"))
 def index():
-    global p3_address
-    failure = False
     if request.method == "POST":
         if "disconnect_bridge" in request.form:
-            bridge.disconnect()
-            p3_address = None
-        elif "connect_bridge" in request.form:
-            moonraker_address = request.form["moonraker_address"].strip()
-            serial_port = defaultIfEmpty(request, "serial_port", "/dev/ttyGS0")
-            try:
-                baudrate = int(defaultIfEmpty(request, "baudrate", "250000"))
-            except ValueError:
-                baudrate = None
-
-            if moonraker_address != "" and baudrate:
-                bridge.connect(
-                    serial_port=serial_port,
-                    baudrate=baudrate,
-                    moonraker_address=moonraker_address,
-                )
-                failure = not bridge.is_connected
-            else:
-                failure = True
-
-            if bridge.is_connected and "p3_address" in request.form:
-                p3_address = request.form["p3_address"].strip() or None
-
-    if bridge.is_connected:
-        return render_template(
-            "connected.html",
-            moonraker_address=bridge.moonraker_address,
-            serial_port=bridge.serial_port,
-            baudrate=bridge.baudrate,
-            p3_address=p3_address,
-        )
-    return render_template("disconnected.html", failure=failure)
+            bridge.set_auto_connect(False)     # manual disconnect stops auto-reconnect
+            bridge.disconnect_locked()
+        elif "auto_connect" in request.form:
+            bridge.set_auto_connect(request.form["auto_connect"] == "enabled")
+    return render_template(
+        "index.html",
+        palette_web=PALETTE_WEB,
+        auto=bool(bridge.auto_connect.value),
+        connected=bridge.is_connected,
+    )

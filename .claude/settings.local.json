@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 *)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:gist.githubusercontent.com)",
+      "Bash(curl -s \"https://api.github.com/search/code?q=gcode_shell_command+filename:gcode_shell_command.py\")",
+      "WebFetch(domain:github.com)",
+      "Bash(gh api *)",
+      "Bash(gh auth *)",
+      "Bash(curl -s \"https://api.github.com/repos/Arksine/moonraker/contents/moonraker/components\")",
+      "Bash(curl -s \"https://raw.githubusercontent.com/Arksine/moonraker/master/moonraker/server.py\" -o /tmp/moonraker_server.py)",
+      "Bash(curl -s \"https://raw.githubusercontent.com/Arksine/moonraker/master/moonraker/components/klippy_connection.py\" -o /tmp/klippy_connection.py)",
+      "Read(//tmp/**)",
+      "Bash(git *)",
+      "WebSearch"
+    ]
+  }
+}

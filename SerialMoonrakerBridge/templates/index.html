@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+{% block title %}SerialMoonrakerBridge{% endblock %}
+
+{% block content %}
+<div class="form_section">
+  <form method="post">
+    <label class="form_label">Auto-connect</label>
+    <select name="auto_connect" class="form_field" onchange="this.form.submit()">
+      <option value="enabled"  {% if auto %}selected{% endif %}>Enabled</option>
+      <option value="disabled" {% if not auto %}selected{% endif %}>Disabled</option>
+    </select>
+  </form>
+</div>
+
+<form method="post">
+  <div class="form_section">
+    <button type="submit" name="disconnect_bridge" value="1" class="btn disconnect">Disconnect</button>
+  </div>
+</form>
+
+<div class="form_section">
+  <textarea id="recent" readonly rows="12"
+            style="width: 100%; box-sizing: border-box; font-family: monospace;
+                   font-size: 12px; white-space: pre; overflow-x: auto;
+                   background-color: black; color: white;
+                   border: 1px solid rgb(53, 53, 53);"></textarea>
+</div>
+
+<iframe id="P3_subframe" src="http://{{ palette_web }}" width="800" height="480"></iframe>
+
+<script>
+  (function () {
+    var ta = document.getElementById('recent');
+    function poll() {
+      fetch('/recent', { cache: 'no-store' })
+        .then(function (r) { return r.json(); })
+        .then(function (d) {
+          var atBottom = ta.scrollTop + ta.clientHeight >= ta.scrollHeight - 4;
+          ta.value = d.lines.join('\n');
+          if (atBottom) ta.scrollTop = ta.scrollHeight;   // follow newest unless scrolled up
+        })
+        .catch(function () {});
+    }
+    poll();
+    setInterval(poll, 1000);
+  })();
+</script>
+{% endblock %}

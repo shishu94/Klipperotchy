@@ -6,11 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css') }}">
     <title>{% block title %} {% endblock %}</title>
+    <style>
+      h1 { overflow: hidden; }
+      .status { float: right; font-size: 17px; font-weight: normal; margin-right: 18px; }
+      .status .item { display: inline-flex; align-items: center; margin-left: 16px; }
+      .status .dot {
+        width: 20px; height: 20px; border-radius: 50%;
+        background: #c0392b;                 /* red = disconnected */
+        box-shadow: 0 0 6px rgba(0, 0, 0, .4);
+        margin-right: 8px; transition: background .3s;
+      }
+      .status .dot.connected { background: #27ae60; }   /* green = connected */
+    </style>
   </head>
   <body>
-        <h1>SerialMoonrakerBridge</h1>
+    <h1>SerialMoonrakerBridge
+      <span class="status">
+        <span class="item" title="Printer / Moonraker"><span class="dot" id="mr-dot"></span>MR</span>
+        <span class="item" title="Palette 3"><span class="dot" id="p3-dot"></span>P3</span>
+      </span>
+    </h1>
     <div class="container">
         {% block content %} {% endblock %}
     </div>
+    <script>
+      (function () {
+        var mr = document.getElementById('mr-dot');
+        var p3 = document.getElementById('p3-dot');
+        function set(dot, on) { dot.className = on ? 'dot connected' : 'dot'; }
+        function poll() {
+          fetch('/status', { cache: 'no-store' })
+            .then(function (r) { return r.json(); })
+            .then(function (d) { set(mr, d.moonraker); set(p3, d.palette); })
+            .catch(function () { set(mr, false); set(p3, false); });
+        }
+        poll();
+        setInterval(poll, 2000);
+      })();
+    </script>
   </body>
 </html>
